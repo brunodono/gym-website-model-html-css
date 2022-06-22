@@ -1,0 +1,414 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/maxO_TVsaeZNlEunsplashmin2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 60px;
+    background-size: contain;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.data-content {
+    width: 1000px;
+    margin: auto;
+}
+
+
+/**nav-bar-start**/
+
+.img-thumbnail {
+    border: none;
+}
+
+
+/**nav-bar-end**/
+
+
+/**section-header start**/
+
+.section-header {
+    height: 780px;
+}
+
+.section-header .data-content {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.section-header .data-content .box-border {
+    height: 350px;
+    width: 383px;
+    margin-top: 50px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.section-header .box-border .subtitle {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.section-header .box-border .title {
+    font-size: 3.8rem;
+    margin-bottom: 12px;
+}
+
+.section-header .box-border .titlebox {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-header .box-border hr {
+    width: 80%;
+    height: 5px;
+    opacity: 1;
+}
+
+
+/**section-header end**/
+
+
+/**section-highlight start**/
+
+.section-highlight {
+    background-color: #33bdd8;
+    height: 240px;
+    width: 100%
+}
+
+.section-highlight .data-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -37px;
+}
+
+.section-highlight .box {
+    height: 234px;
+    width: 300px;
+    background-color: white;
+    padding: 25px;
+}
+
+.section-highlight .box h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section-highlight .box p {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.section-highlight .box button {
+    border: 1px solid #33bdd8;
+    height: 46px;
+    width: 97px;
+    background: none;
+    border-radius: 1.5px;
+}
+
+
+/**section-highlight end**/
+
+
+/**section-mid start**/
+
+.section-mid {
+    height: 700px;
+    width: 100%;
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: monospace;
+}
+
+.section-mid .left {
+    height: 600px;
+    width: 45%;
+}
+
+.section-mid .left img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 20px;
+}
+
+.section-mid .left p {
+    margin-right: 80px;
+}
+
+.section-mid .right {
+    height: 600px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.section-mid .right img {
+    width: 100%;
+    height: 390px;
+    object-fit: fill;
+    margin-top: 20px;
+}
+
+.section-mid .right h1 {
+    color: #33bdd8;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+.section-mid .right p {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 50px;
+}
+
+.section-mid .right a {
+    color: #33bdd8;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.section-mid .data-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/**section-mid end**/
+
+
+/**section-midblack start**/
+
+.section-midblack {
+    background: #292d33;
+    height: 540px;
+}
+
+.section-midblack .data-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-midblack img {
+    border: 10px solid #33bdd8;
+    object-fit: cover;
+    object-position: top;
+    width: 419px;
+    height: 425px;
+}
+
+.section-midblack .right {
+    margin-top: 120px;
+    height: 427px;
+    width: 566px;
+}
+
+.section-midblack h2 {
+    font-weight: bold;
+    color: #33bdd8;
+}
+
+.section-midblack .box {
+    height: 322px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    margin-top: 19px;
+}
+
+.box-size {
+    height: 204px;
+    width: 223px;
+}
+
+
+/**section-midblack end**/
+
+
+/**section-midphotos start**/
+
+.section-midphotos {
+    background: white;
+    height: 643px;
+}
+
+.section-midphotos .data-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-midphotos .left img {
+    width: 463px;
+    height: 588px;
+    position: relative;
+}
+
+.section-midphotos .right img {
+    width: 463px;
+    height: 588px;
+    position: relative;
+}
+
+.section-midphotos .middle {
+    background-color: #33bdd8;
+    height: 270px;
+    width: 345px;
+    display: flex;
+    position: absolute;
+    right: 617px;
+    margin-top: 172px;
+}
+
+.section-midphotos .middle .text {
+    color: white;
+    text-align: center;
+    padding: 34px;
+    font-family: system-ui;
+}
+
+
+/**section-midphotos end**/
+
+
+/**section-midblue start**/
+
+.section-midblue {
+    background-color: #33bdd8;
+    width: 100%;
+    height: 320px;
+}
+
+.section-midblue .data-content {
+    color: white;
+    height: 320px;
+    width: 613px;
+    padding-top: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.section-midblue h1 {
+    font-size: 9rem;
+    height: 46px;
+}
+
+.section-midblue p {
+    text-align: center;
+    height: 46px;
+}
+
+
+/**section-midblue end**/
+
+
+/**section-last start**/
+
+.section-last {
+    background: white;
+    height: 568px;
+}
+
+.section-last .data-content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section-last .img-left {
+    width: 411px;
+    height: 513px;
+}
+
+.section-last .img-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-last .img-feet img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-last .img-feet {
+    width: 265px;
+    height: 250px;
+}
+
+.section-last .blue-box {
+    background-color: #33bdd8;
+    width: 265px;
+    height: 250px;
+    color: white;
+    padding: 30px;
+    font-size: 0.8rem;
+}
+
+.section-last .text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -458px;
+    right: -158px;
+}
+
+.section-last .text h3 {
+    font-size: 1.2rem;
+}
+
+.section-last .text h1 {
+    font-size: 3rem;
+    color: #33bdd8;
+    font-weight: bolder;
+}
+
+.section-last .text a {
+    color: #33bdd8;
+}
+
+.icon {
+    height: 26px;
+    width: 160px;
+}
+
+
+/**section-last end**/
+
+
+/**nav-bottom start**/
+
+.nav-bottom {
+    background-color: #292d33;
+    height: 100px;
+}
+
+.nav-bottom .data-content {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/**nav-bottom end**/
